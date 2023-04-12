@@ -1,3 +1,3 @@
 # javascript-course
 
-https://labiovelarapproximant-wf.github.io/javascript-course/index.html
+https://labiovelarapproximant-wf.github.io/javascript-course/
