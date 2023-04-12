@@ -1,0 +1,41 @@
+body {
+	display: flex;
+	font-family: Sans-Serif;
+	flex-direction: column;
+	background-color: black;
+	padding: 10%;
+}
+.container {
+	justify-content: space-evenly;
+	align-self: center;
+	background-color: red;
+	padding: 1%;
+	border: 0.1em solid white;
+}
+.top {
+	background-color: white;
+	padding: 2.5%;
+	border: 0.1em solid black;
+}
+.middle {
+	background-color: white;
+	padding: 2.5%;
+	border: 0.1em solid black;
+}
+.box1 {
+	color: white;
+	background-color: black;
+	padding: 1%;
+	border: 0.1em solid red;
+}
+.bottom {
+	background-color: white;
+	padding: 2.5%;
+	border: 0.1em solid black;
+}
+.box2 {
+	color: white;
+	background-color: black;
+	padding: 1%;
+	border: 0.1em solid red;
+}

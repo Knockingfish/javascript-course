@@ -1,0 +1,27 @@
+body {
+	display: flex;
+	justify-content: center;
+	font-family: Sans-Serif;
+	padding-top: 10%;
+	background-color: mintcream;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 1%;
+	border: 0.1em solid darkgoldenrod;
+	box-shadow: 1em 1em 0px rgba(0, 0, 0, 1);
+	background-color: blue;
+	width: 33%;
+	height: 33%;
+}
+
+.title, .input1, .input2, .output {
+	background-color: white;
+	padding: 1.5%;
+	border: 0.1em solid darkgoldenrod;
+	align-content: center;
+	margin: 0.5%;
+}
+

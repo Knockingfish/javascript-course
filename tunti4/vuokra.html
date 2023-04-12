@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="vuokra.css">
+	<title>Mökkivuokran</title>
+</head>
+<body>
+<div class="container">
+	<div class="title">
+	<h2>Mökkivuokran</h2>
+	</div>
+
+	<div class="input1">
+	<label for="rent">Mökin vuokran kokonaissumma:</label>
+	<input type="number" id="rent">
+	</div>
+
+	<div class="input2">
+	<label for="henkilomara">Työporukan henkilöiden määrä:</label>
+	<input type="number" id="people">
+	</div>
+
+	<div class="output">
+	<button onclick="laske_osuudet()">Laske osuudet</button>
+	<div id="shares"></div>
+	</div>
+</div>
+<script src="vuokra.js"></script>
+</body>
+</html>

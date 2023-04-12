@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Button Demo</title>
+    </head>
+    <body>
+        <h2>Javascript Button</h2>
+        <p id="demo">Alkuperainen teksti</p>
+        <button id="button" onclick="MuutaTeksti()"">Muuta teksti</button>
+        
+        <script>
+            function MuutaTeksti() {
+                document.getElementById("demo").innerHTML = "Harjoitellan Javascriptiä";
+            }
+        </script>
+    </body>
+</html>
