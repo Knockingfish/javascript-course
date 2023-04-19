@@ -26,7 +26,7 @@ function laske_lounas() {
 			var shares = sum / people;
 			var list = "<ul>";
 			for (var i = 1; i <= people; i++) {
-				list += `<li>Henkilö ${i}: ${shares.toFixed(2)}€ kuukaudessa</li>`;
+				list += `<li>Henkilö ${i}: ${shares.toFixed(2)}€</li>`;
 			}
 			list += "</ul>";
 			shares_output.innerHTML = list;
