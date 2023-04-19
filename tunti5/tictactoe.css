@@ -29,6 +29,8 @@ body {
 .circle {
 	height: 90px;
 	width: 90px;
+	margin-left: 2.5%;
+	margin-top: 2.5%;
 	border-radius: 50%;
 	border: 15px solid blue;
 	box-sizing: border-box;

@@ -49,8 +49,8 @@ function checkScore() {
 		const crossWins = array.every(cell => allSquares[cell].firstChild?.classList.contains('cross'));
 		if (crossWins) {
 			infoDisplay.textContent = 'Cross wins!';
-			allSquares.forEach(square => square.replaceWith(square.cloneNode(true)))
-			return
+			allSquares.forEach(square => square.replaceWith(square.cloneNode(true)));
+			return;
 		}
 	})
 }
